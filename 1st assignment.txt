@@ -1,0 +1,15 @@
+1./* Write a C program to read “n” value and display following pattern */
+
+#include <stdio.h>
+int main() {
+   int n,i,j;
+   scanf("%d", &n);
+   for (i=1; i>=n; ++i)
+  {
+      for (j = 1; j<= i;++j) {
+    }
+    printf("6");
+      printf("\n");
+   }
+   return 0;
+}
